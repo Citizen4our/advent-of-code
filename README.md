@@ -11,8 +11,7 @@ My solutions to [Advent of Code](https://adventofcode.com) puzzles.
 | D | Puzzle                                                    |              Code              | Part 1 Performance | Part 2 Performance |
 |:-:|-----------------------------------------------------------|:------------------------------:|:------------------:|:------------------:|
 | 1 | [Historian Hysteria](https://adventofcode.com/2024/day/1) | [day1.rs](aoc2024/src/day1.rs) |     60.833 µs      |      66.70 µs      |
-
-[//]: # (|   2   | [Red-Nosed Reports]&#40;https://adventofcode.com/2024/day/2&#41;  | [day2.rs]&#40;aoc2024/src/day2.rs&#41; |            |          |)
+| 1 | [Red-Nosed Reports](https://adventofcode.com/2024/day/2)  | [day2.rs](aoc2024/src/day2.rs) |     16.125 µs      |     184.458 µs     |
 
 [//]: # (|   3   | [Mull It Over]&#40;https://adventofcode.com/2024/day/3&#41;       | [day3.rs]&#40;aoc2024/src/day3.rs&#41; |            |            |)
 

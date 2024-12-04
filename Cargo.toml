@@ -1,0 +1,15 @@
+[workspace]
+members = ["aoc2024"]
+default-members = ["aoc2024"]
+resolver = "2"
+
+[workspace.package]
+authors = ["Vasyl Kyrashchuk <kiraschuk1996@gmail.com>"]
+keywords = ["advent_of_code", "aoc"]
+license = "MIT OR Apache-2.0"
+readme = "README.md"
+repository = "https://github.com/Citizen4our/advent-of-code"
+
+[workspace.dependencies]
+aoc-runner = { version = "0.3" }
+aoc-runner-derive = { version = "0.3" }

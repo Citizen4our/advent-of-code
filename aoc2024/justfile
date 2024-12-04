@@ -1,0 +1,3 @@
+gd:
+    #!/usr/bin/env bash
+    cargo aoc input -g

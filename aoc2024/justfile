@@ -5,3 +5,7 @@ get_input:
 gen_day:
     #!/usr/bin/env bash
     cargo aoc input -g
+
+submit_day part="1" answer="0":
+    #!/usr/bin/env bash
+    aoc submit {{part}} {{answer}}

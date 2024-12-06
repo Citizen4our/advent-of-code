@@ -12,7 +12,8 @@ My solutions to [Advent of Code](https://adventofcode.com) puzzles.
 |:-:|-----------------------------------------------------------|:------------------------------:|:------------------:|:------------------:|
 | 1 | [Historian Hysteria](https://adventofcode.com/2024/day/1) | [day1.rs](aoc2024/src/day1.rs) |     60.833 µs      |      66.70 µs      |
 | 2 | [Red-Nosed Reports](https://adventofcode.com/2024/day/2)  | [day2.rs](aoc2024/src/day2.rs) |     16.125 µs      |     184.458 µs     |
-| 3 | [Print Queue](https://adventofcode.com/2024/day/5)        | [day5.rs](aoc2024/src/day2.rs) |     150.68 µs      |     101.08 µs      |
+| 3 | [Mull It Over](https://adventofcode.com/2024/day/3)       | [day3.rs](aoc2024/src/day3.rs) |     585.62 µs      |     620.87 µs      |
+| 5 | [Print Queue](https://adventofcode.com/2024/day/5)        | [day5.rs](aoc2024/src/day5.rs) |     150.68 µs      |     101.08 µs      |
 </details>
 
 ## Instructions

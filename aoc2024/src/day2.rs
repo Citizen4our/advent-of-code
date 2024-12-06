@@ -62,7 +62,6 @@ mod tests {
     const SAMPLE: &str = include_str!("../input/test/day2.txt");
     #[test]
     fn part1_example() {
-        let s = parse(SAMPLE).as_slice();
         assert_eq!(part1(&parse(SAMPLE)), 2);
     }
 

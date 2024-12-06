@@ -1,8 +1,6 @@
 use aoc_runner_derive::{aoc, aoc_generator};
-use itertools::Itertools;
 use std::collections::HashSet;
 use std::iter::Iterator;
-use std::string::ToString;
 
 #[aoc_generator(day5)]
 fn parse(input: &str) -> Input {
@@ -67,13 +65,13 @@ fn part1(input: &Input) -> u32 {
 
 #[aoc(day5, part2)]
 #[must_use]
-pub fn part2(input: &Input) -> u32 {
+fn part2(input: &Input) -> u32 {
     let rules = input.rule_map.clone();
     let mut updates = input.update_list.clone();
 
     updates
         .iter_mut()
-        .filter_map(|mut update| {
+        .filter_map(|update| {
             (!update.is_sorted_by(|a, b| !rules.contains(&(*b, *a)))).then_some({
                 update.sort_by(|a, b| {
                     if rules.contains(&(*a, *b)) {
